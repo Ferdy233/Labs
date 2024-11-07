@@ -1,5 +1,5 @@
-function isPalindromeOfString(str) {
-    const reversed = str.split("").reverse().join("");
+function isPalindrome(str) {
+const reversed = str.split("").reverse().join("");
     return reversed === str;
 }
 
